@@ -1,0 +1,648 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jiangshihua/ontologies/2023/3/untitled-ontology-13/"
+     xml:base="http://www.semanticweb.org/jiangshihua/ontologies/2023/3/untitled-ontology-13/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.US_pro.com#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.US_pro.com"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.US_pro.com#参与 -->
+
+    <owl:ObjectProperty rdf:about="http://www.US_pro.com#参与">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.US_pro.com#科研人员"/>
+        <rdfs:range rdf:resource="http://www.US_pro.com#项目"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.US_pro.com#发表 -->
+
+    <owl:ObjectProperty rdf:about="http://www.US_pro.com#发表">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.US_pro.com#科研人员"/>
+        <rdfs:range rdf:resource="http://www.US_pro.com#论文"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.US_pro.com#属于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.US_pro.com#属于">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.US_pro.com#科研人员"/>
+        <rdfs:range rdf:resource="http://www.US_pro.com#机构"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.US_pro.com#ABSTRACT_TEXT(项目介绍) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ABSTRACT_TEXT(项目介绍)">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ADMINISTERING_IC(管理者位于地区) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ADMINISTERING_IC(管理者位于地区)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#科研人员"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#AFFILIATION(论文的附加信息) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#AFFILIATION(论文的附加信息)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#APPLICATION_ID(项目ID) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#APPLICATION_ID(项目ID)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#APPLICATION_TYPE(项目类型) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#APPLICATION_TYPE(项目类型)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#AWARD_NOTICE_DATE(资助日期) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#AWARD_NOTICE_DATE(资助日期)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#BUDGET_END(预算结束时间) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#BUDGET_END(预算结束时间)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#BUDGET_START(预算开始时间) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#BUDGET_START(预算开始时间)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#CFDA_CODE(国家食品药品监督管理总局编号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#CFDA_CODE(国家食品药品监督管理总局编号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#CORE_PROJECT_NUM(项目核心编号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#CORE_PROJECT_NUM(项目核心编号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#COUNTRY(论文发表国家) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#COUNTRY(论文发表国家)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#DIRECT_COST_AMT(直接花销) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#DIRECT_COST_AMT(直接花销)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#FOA_NUMBER(Funding_Opportunity_Announcement融资机构编号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#FOA_NUMBER(Funding_Opportunity_Announcement融资机构编号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#FULL_PROJECT_NUM(项目全部编号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#FULL_PROJECT_NUM(项目全部编号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#FUNDING_ICs(资助机构) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#FUNDING_ICs(资助机构)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#FUNDING_MECHANISM(基金计划) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#FUNDING_MECHANISM(基金计划)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#FY(财政年度) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#FY(财政年度)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#IC_NAME(资助机构名称) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#IC_NAME(资助机构名称)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#INDIRECT_COST_AMT(间接花销) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#INDIRECT_COST_AMT(间接花销)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ISSN(国际标准刊号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ISSN(国际标准刊号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#JOURNAL_ISSUE&apos;(期刊期号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#JOURNAL_ISSUE&apos;(期刊期号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#JOURNAL_TITLE(期刊标题) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#JOURNAL_TITLE(期刊标题)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#JOURNAL_TITLE_ABBR(期刊标题附加) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#JOURNAL_TITLE_ABBR(期刊标题附加)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#JOURNAL_VOLUME(期刊卷数) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#JOURNAL_VOLUME(期刊卷数)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#LANG(论文语种) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#LANG(论文语种)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#NIH_SPENDING_CATS(NIH分类科目) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#NIH_SPENDING_CATS(NIH分类科目)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_CITY(组织所属城市) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_CITY(组织所属城市)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_COUNTRY(组织所属国家) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_COUNTRY(组织所属国家)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_DEPT(组织研究领域) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_DEPT(组织研究领域)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_DISTRICT(组织遍布的城市数) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_DISTRICT(组织遍布的城市数)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_DUNS(组织机构代码) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_DUNS(组织机构代码)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_FIPS(联邦信息处理标准) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_FIPS(联邦信息处理标准)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_NAME(组织名称) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_NAME(组织名称)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_STATE(组织所属州) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_STATE(组织所属州)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#ORG_ZIPCODE(组织邮政编码) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#ORG_ZIPCODE(组织邮政编码)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#机构"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PAGE_NUMBER(论文页数) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PAGE_NUMBER(论文页数)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PHR(公共卫生相关性) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PHR(公共卫生相关性)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PI_IDS(主要研究人员ID) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PI_IDS(主要研究人员ID)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#科研人员"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PI_NAMEs(主要研究人员名称) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PI_NAMEs(主要研究人员名称)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#科研人员"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PMC_ID(PMC为每一篇文献给予的特定编号) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PMC_ID(PMC为每一篇文献给予的特定编号)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PMID(Pubmed的ID) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PMID(Pubmed的ID)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PROGRAM_OFFICER_NAME(项目办公室名称) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PROGRAM_OFFICER_NAME(项目办公室名称)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PROJECT_END(项目结束时间) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PROJECT_END(项目结束时间)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PROJECT_START(项目开始时间) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PROJECT_START(项目开始时间)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PROJECT_TERMS(项目所属领域) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PROJECT_TERMS(项目所属领域)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PROJECT_TITLE(项目标题) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PROJECT_TITLE(项目标题)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PUB_DATE(论文发表日期) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PUB_DATE(论文发表日期)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PUB_TITLE(论文发表期刊) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PUB_TITLE(论文发表期刊)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#PUB_YEAR(论文发表年份) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#PUB_YEAR(论文发表年份)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#论文"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#STUDY_SECTION(研究所属部分) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#STUDY_SECTION(研究所属部分)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#STUDY_SECTION_NAME(研究所属部分名称) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#STUDY_SECTION_NAME(研究所属部分名称)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#SUBPROJECT_ID(子项目ID) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#SUBPROJECT_ID(子项目ID)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#SUPPORT_YEAR(资助时长) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#SUPPORT_YEAR(资助时长)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#TOTAL_COST(总花销) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#TOTAL_COST(总花销)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.US_pro.com#TOTAL_COST_SUB_PROJECT(子项目总花销) -->
+
+    <owl:DatatypeProperty rdf:about="http://www.US_pro.com#TOTAL_COST_SUB_PROJECT(子项目总花销)">
+        <rdfs:domain rdf:resource="http://www.US_pro.com#项目"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.US_pro.com#机构 -->
+
+    <owl:Class rdf:about="http://www.US_pro.com#机构"/>
+    
+
+
+    <!-- http://www.US_pro.com#科研人员 -->
+
+    <owl:Class rdf:about="http://www.US_pro.com#科研人员"/>
+    
+
+
+    <!-- http://www.US_pro.com#论文 -->
+
+    <owl:Class rdf:about="http://www.US_pro.com#论文"/>
+    
+
+
+    <!-- http://www.US_pro.com#项目 -->
+
+    <owl:Class rdf:about="http://www.US_pro.com#项目"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.US_pro.com#AIM-AHEAD_Coordinating_Center_-_All_Four_Cores -->
+
+    <owl:NamedIndividual rdf:about="http://www.US_pro.com#AIM-AHEAD_Coordinating_Center_-_All_Four_Cores">
+        <rdf:type rdf:resource="http://www.US_pro.com#项目"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.US_pro.com#UNIVERSITY_OF_NORTH_TEXAS_HLTH_SCI_CTR -->
+
+    <owl:NamedIndividual rdf:about="http://www.US_pro.com#UNIVERSITY_OF_NORTH_TEXAS_HLTH_SCI_CTR">
+        <rdf:type rdf:resource="http://www.US_pro.com#机构"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.US_pro.com#34639651.0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.US_pro.com#34639651.0">
+        <rdf:type rdf:resource="http://www.US_pro.com#论文"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.US_pro.com#SAMBAMOORTHI,_USHA -->
+
+    <owl:NamedIndividual rdf:about="http://www.US_pro.com#SAMBAMOORTHI,_USHA">
+        <rdf:type rdf:resource="http://www.US_pro.com#科研人员"/>
+        <www:参与 rdf:resource="http://www.US_pro.com#AIM-AHEAD_Coordinating_Center_-_All_Four_Cores"/>
+        <www:发表 rdf:resource="http://www.US_pro.com#34639651.0"/>
+        <www:属于 rdf:resource="http://www.US_pro.com#UNIVERSITY_OF_NORTH_TEXAS_HLTH_SCI_CTR"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
