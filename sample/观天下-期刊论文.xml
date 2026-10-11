@@ -1,0 +1,328 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="zh-Hans-CN">
+  <siteinfo>
+    <sitename>观天下</sitename>
+    <dbname>new_wiki</dbname>
+    <base>http://smw_wiki.idc.hengxing2016.cn/index.php/%E9%A6%96%E9%A1%B5</base>
+    <generator>MediaWiki 1.37.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">媒体文件</namespace>
+      <namespace key="-1" case="first-letter">特殊</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">讨论</namespace>
+      <namespace key="2" case="first-letter">用户</namespace>
+      <namespace key="3" case="first-letter">用户讨论</namespace>
+      <namespace key="4" case="first-letter">观天下</namespace>
+      <namespace key="5" case="first-letter">观天下讨论</namespace>
+      <namespace key="6" case="first-letter">文件</namespace>
+      <namespace key="7" case="first-letter">文件讨论</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki讨论</namespace>
+      <namespace key="10" case="first-letter">模板</namespace>
+      <namespace key="11" case="first-letter">模板讨论</namespace>
+      <namespace key="12" case="first-letter">帮助</namespace>
+      <namespace key="13" case="first-letter">帮助讨论</namespace>
+      <namespace key="14" case="first-letter">分类</namespace>
+      <namespace key="15" case="first-letter">分类讨论</namespace>
+      <namespace key="102" case="first-letter">属性</namespace>
+      <namespace key="103" case="first-letter">属性讨论</namespace>
+      <namespace key="106" case="first-letter">表单</namespace>
+      <namespace key="107" case="first-letter">表单讨论</namespace>
+      <namespace key="108" case="first-letter">概念</namespace>
+      <namespace key="109" case="first-letter">概念讨论</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="274" case="first-letter">Widget</namespace>
+      <namespace key="275" case="first-letter">Widget talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="828" case="first-letter">模块</namespace>
+      <namespace key="829" case="first-letter">模块讨论</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>分类:实体</title>
+    <ns>14</ns>
+    <id>134</id>
+    <revision>
+      <id>4751</id>
+      <parentid>4738</parentid>
+      <timestamp>2023-05-06T02:23:31Z</timestamp>
+      <contributor>
+        <username>WWk</username>
+        <id>1</id>
+      </contributor>
+      <origin>4751</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1562" sha1="52qc4ardhlcfcyca4pj4w23dqyimofu" xml:space="preserve">{{数据表描述
+|描述=该分类为平台顶层本体。实体是指现实世界中存在的具体或抽象的事物或概念，可以是具有独立存在和特征的个体，也可以是人们所感知和思考的抽象概念。实体是人们认识和描述世界的基本单位之一，是各种知识和信息的基本元素。
+|所属平台=观天下平台
+|编辑进度=是
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Name
+|字段含义=姓名或名称
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Description
+|字段含义=实体描述或摘要
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=是
+|InfoBox字段=否
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Ailas
+|字段含义=别名
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Definition
+|字段含义=义项
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{div end}}</text>
+      <sha1>52qc4ardhlcfcyca4pj4w23dqyimofu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>分类:科研成果</title>
+    <ns>14</ns>
+    <id>159</id>
+    <revision>
+      <id>2172</id>
+      <parentid>1954</parentid>
+      <timestamp>2023-04-11T08:03:30Z</timestamp>
+      <contributor>
+        <username>NE王睿哲</username>
+        <id>27</id>
+      </contributor>
+      <origin>2172</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1572" sha1="equbhonanomzdklytljnnklndkmxrh2" xml:space="preserve">{{数据表描述
+|描述=[[Category:实体]]
+
+所谓科技成果是指人们在科学技术活动中通过复杂的智力劳动所得出的具有某种被公认的学术或经济价值的知识产品。中国科学院在《中国科学院科学技术研究成果管理办法》把科技成果的含义界定为：对某一科学技术研究课题，通过观察实验、研究试制或辩证思维活动取得的具有一定学术意义或实用意义的结果。科技成果按其研究性质分为基础研究成果、应用研究成果和发展工作成果。
+|所属平台=观天下平台
+|指定表单=科研成果
+|编辑进度=否
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=ResponsiblePerson
+|字段含义=负责人
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=是
+|关联实体=人物
+|转置属性=无
+|属性特征=Transitive, Asymmetric, Reflexive
+|Freetext字段=否
+|InfoBox字段=是
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=ResponsibleOrg
+|字段含义=负责机构
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=是
+|关联实体=组织机构
+|转置属性=无
+|属性特征=Asymmetric, Irreflexive
+|Freetext字段=否
+|InfoBox字段=是
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Keywords
+|字段含义=关键词
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=是
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+}}
+{{div end}}</text>
+      <sha1>equbhonanomzdklytljnnklndkmxrh2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>分类:论文</title>
+    <ns>14</ns>
+    <id>176</id>
+    <revision>
+      <id>2264</id>
+      <parentid>2171</parentid>
+      <timestamp>2023-04-11T10:20:49Z</timestamp>
+      <contributor>
+        <username>WWk</username>
+        <id>1</id>
+      </contributor>
+      <origin>2264</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1336" sha1="ng9wfezej051qavjg68j1er5hfpu8bp" xml:space="preserve">{{数据表描述
+|描述=[[Category:科研成果]] 
+
+论文常用来指进行各个学术领域的研究和描述学术研究成果的文章，简称之为论文。它既是探讨问题进行学术研究的一种手段，又是描述学术研究成果进行学术交流的一种工具。
+|所属平台=生物安全平台
+|编辑进度=否
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=AuthorNationality
+|字段含义=作者国别
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=是
+|关联实体=国家
+|转置属性=无
+|属性特征=Asymmetric, Irreflexive
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=王睿哲修订;刘基业修订
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=JournalName
+|字段含义=期刊名称
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=王睿哲修订
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Date
+|字段含义=发表日期
+|SQL类型=DATE
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=王睿哲修订
+}}
+{{div end}}</text>
+      <sha1>ng9wfezej051qavjg68j1er5hfpu8bp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>分类:期刊论文</title>
+    <ns>14</ns>
+    <id>184</id>
+    <revision>
+      <id>2944</id>
+      <parentid>2936</parentid>
+      <timestamp>2023-04-12T13:01:19Z</timestamp>
+      <contributor>
+        <username>NE赵莹</username>
+        <id>24</id>
+      </contributor>
+      <origin>2944</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="774" sha1="ftjtn7fgenxghoj45kxq49fh93f1iec" xml:space="preserve">{{数据表描述
+|描述=[[Category:论文]]
+
+正式出版的期刊上所刊载的学术论文。
+|所属平台=生物安全平台
+|编辑进度=否
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=URL
+|字段含义=论文页面链接
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:URL型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=赵莹修订
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=DOI
+|字段含义=论文DOI
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=赵莹修订
+}}
+{{div end}}</text>
+      <sha1>ftjtn7fgenxghoj45kxq49fh93f1iec</sha1>
+    </revision>
+  </page>
+</mediawiki>

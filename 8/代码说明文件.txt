@@ -1,0 +1,10 @@
+Ipynb文件环境及相应库：
+Jupyter Notebook：6.4.5
+Python：3.9.7
+安装库:pandas、numpy、matplotlib、collections、seaborn、re、os、bs4、py2neo、concurrent.futures、networkx、FontProperties
+
+Py文件对应本体：
+wiki_creator_ORG.py——科研机构
+wiki_creator_PI.py——科研人员
+wiki_creator_PM.py——科研论文
+wiki_creator_PRO.py——科研项目

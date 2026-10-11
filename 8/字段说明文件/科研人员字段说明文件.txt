@@ -1,0 +1,7 @@
+左边为数据的特征，右边对应页面位置
+ADMINISTERING_IC(管理者位于地区)——右侧科研人员基本信息、页面名称之下第一行
+PI_IDS(主要研究人员ID)——右侧科研人员基本信息
+PI_NAMEs(主要研究人员名称)——右侧科研人员基本信息、页面名称
+
+schema链接：
+http://smw_wiki.idc.hengxing2016.cn/index.php/%E5%88%86%E7%B1%BB:%E7%A7%91%E7%A0%94%E4%BA%BA%E5%91%98

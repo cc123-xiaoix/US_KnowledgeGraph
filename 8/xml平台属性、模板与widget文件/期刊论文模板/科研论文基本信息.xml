@@ -1,0 +1,128 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="zh">
+  <siteinfo>
+    <sitename>xxxiaoxiao</sitename>
+    <dbname>my_wiki</dbname>
+    <base>http://localhost:8080/mediawiki/index.php/%E9%A6%96%E9%A1%B5</base>
+    <generator>MediaWiki 1.35.4</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Xxxiaoxiao</namespace>
+      <namespace key="5" case="first-letter">Xxxiaoxiao talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="102" case="first-letter">属性</namespace>
+      <namespace key="103" case="first-letter">属性讨论</namespace>
+      <namespace key="106" case="first-letter">Form</namespace>
+      <namespace key="107" case="first-letter">Form talk</namespace>
+      <namespace key="108" case="first-letter">概念</namespace>
+      <namespace key="109" case="first-letter">概念讨论</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="274" case="first-letter">Widget</namespace>
+      <namespace key="275" case="first-letter">Widget talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="828" case="first-letter">模块</namespace>
+      <namespace key="829" case="first-letter">模块讨论</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Template:科研论文基本信息</title>
+    <ns>10</ns>
+    <id>14262</id>
+    <revision>
+      <id>21937</id>
+      <parentid>21934</parentid>
+      <timestamp>2023-05-08T08:04:19Z</timestamp>
+      <contributor>
+        <username>Jzc1986914548</username>
+        <id>1</id>
+      </contributor>
+      <origin>21937</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2713" sha1="9r1obqoela9xydsj4fhzu0nk1g94f5k" xml:space="preserve">&lt;noinclude&gt;
+这是“科研论文基本信息”模板。调用它时应该采用如下格式：
+&lt;pre&gt;
+{{科研论文基本信息
+|Country=
+|Affiliation=
+|JournalIssue=
+|JournalTitle=
+|JounalTitleAbbr=
+|JournalVolume=
+|Language=
+|PageNumber=
+|PMCID=
+|PubDate=
+|PubTitle=
+|PubYear=
+|ISSN=
+|PMID=
+|Author=
+}}
+&lt;/pre&gt;
+编辑页面以阅读模板文本。
+&lt;/noinclude&gt;&lt;includeonly&gt;{{div|col-md-3 |padding-left: 25px}}
+{| class="info_table" style="border-radius: 4px;border: 1px solid #fafafa;background-color: #f8f8f8;width: 100%;padding: 5px 10px ;line-height: 2.5;border-collapse:separate; font-size: 14px;box-shadow: 0 2px 2px rgba(0,0,0,0.1);"
+|- style="font-size:20px;font-weight:700;line-height:38px;"
+|colspan="2" | 期刊论文基本信息
+{|- style="{{#ifeq:{{{PubTitle|}}}||display: none|}}"
+|style="width: 85pt;"| '''PubTitle''' || [[论文发表名称::{{{PubTitle|}}}]]
+|- style="{{#ifeq:{{{Country|}}}||display: none|}}"
+|style="width: 85pt;"| '''Country''' || [[论文发表国家::{{{Country|}}}]]
+|- style="{{#ifeq:{{{PubDate|}}}||display: none|}}"
+|style="width: 85pt;"| '''PubDate''' || [[论文发表日期::{{{PubDate|}}}]]
+|- style="{{#ifeq:{{{PubYear|}}}||display: none|}}"
+|style="width: 85pt;"| '''PubYear''' || [[论文发表年份::{{{PubYear|}}}]]
+|- style="{{#ifeq:{{{Language|}}}||display: none|}}"
+|style="width: 85pt;"| '''Language''' || [[论文语种::{{{Language|}}}]]
+|- style="{{#ifeq:{{{JournalTitle|}}}||display: none|}}"
+|style="width: 85pt;"| '''JournalTitle''' || [[期刊标题::{{{JournalTitle|}}}]]
+|- style="{{#ifeq:{{{JounalTitleAbbr|}}}||display: none|}}"
+|style="width: 85pt;"| '''JounalTitleAbbr''' || [[期刊标题附加::{{{JounalTitleAbbr|}}}]]
+|- style="{{#ifeq:{{{JournalIssue|}}}||display: none|}}"
+|style="width: 85pt;"| '''JournalIssue''' || [[期刊期号::{{{JournalIssue|}}}]]
+|- style="{{#ifeq:{{{JournalVolume|}}}||display: none|}}"
+|style="width: 85pt;"| '''JournalVolume''' || [[期刊卷数::{{{JournalVolume|}}}]]
+|- style="{{#ifeq:{{{PageNumber|}}}||display: none|}}"
+|style="width: 85pt;"| '''PageNumber''' || [[论文页数::{{{PageNumber|}}}]]
+|- style="{{#ifeq:{{{PMID|}}}||display: none|}}"
+|style="width: 85pt;"| '''PMID''' || [[Pubmed的ID::{{{PMID|}}}]]
+|- style="{{#ifeq:{{{PMCID|}}}||display: none|}}"
+|style="width: 85pt;"| '''PMCID''' || [[PMC为每一篇文献给予的特定编号::{{{PMCID|}}}]]
+|- style="{{#ifeq:{{{ISSN|}}}||display: none|}}"
+|style="width: 85pt;"| '''ISSN''' || [[国际标准刊号::{{{ISSN|}}}]]
+|- style="{{#ifeq:{{{Author|}}}||display: none|}}"
+|style="width: 85pt;"| '''Author''' ||{{#arraymap:{{{Author|}}}|;|x|
+[[作者::x]]}}
+|}
+&lt;br&gt;
+{{实体元数据}}
+{{div end}}
+[[Category:期刊论文]]
+&lt;/includeonly&gt;</text>
+      <sha1>9r1obqoela9xydsj4fhzu0nk1g94f5k</sha1>
+    </revision>
+  </page>
+</mediawiki>

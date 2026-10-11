@@ -1,0 +1,11 @@
+csv：
+实体科研人员的数据集，不同特征说明如下
+ADMINISTERING_IC(管理者位于地区)
+PI_IDS(主要研究人员ID)
+PI_NAMEs(主要研究人员名称)
+
+xml：
+左边为csv中数据的特征，右边对应xml中的实体特征
+ADMINISTERING_IC(管理者位于地区)
+PI_IDS(主要研究人员ID)
+PI_NAMEs(主要研究人员名称)——Name

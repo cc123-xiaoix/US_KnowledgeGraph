@@ -1,0 +1,470 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="zh-Hans-CN">
+  <siteinfo>
+    <sitename>观天下</sitename>
+    <dbname>new_wiki</dbname>
+    <base>http://smw_wiki.idc.hengxing2016.cn/index.php/%E9%A6%96%E9%A1%B5</base>
+    <generator>MediaWiki 1.37.1</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">媒体文件</namespace>
+      <namespace key="-1" case="first-letter">特殊</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">讨论</namespace>
+      <namespace key="2" case="first-letter">用户</namespace>
+      <namespace key="3" case="first-letter">用户讨论</namespace>
+      <namespace key="4" case="first-letter">观天下</namespace>
+      <namespace key="5" case="first-letter">观天下讨论</namespace>
+      <namespace key="6" case="first-letter">文件</namespace>
+      <namespace key="7" case="first-letter">文件讨论</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki讨论</namespace>
+      <namespace key="10" case="first-letter">模板</namespace>
+      <namespace key="11" case="first-letter">模板讨论</namespace>
+      <namespace key="12" case="first-letter">帮助</namespace>
+      <namespace key="13" case="first-letter">帮助讨论</namespace>
+      <namespace key="14" case="first-letter">分类</namespace>
+      <namespace key="15" case="first-letter">分类讨论</namespace>
+      <namespace key="102" case="first-letter">属性</namespace>
+      <namespace key="103" case="first-letter">属性讨论</namespace>
+      <namespace key="106" case="first-letter">表单</namespace>
+      <namespace key="107" case="first-letter">表单讨论</namespace>
+      <namespace key="108" case="first-letter">概念</namespace>
+      <namespace key="109" case="first-letter">概念讨论</namespace>
+      <namespace key="112" case="first-letter">smw/schema</namespace>
+      <namespace key="113" case="first-letter">smw/schema talk</namespace>
+      <namespace key="114" case="first-letter">Rule</namespace>
+      <namespace key="115" case="first-letter">Rule talk</namespace>
+      <namespace key="274" case="first-letter">Widget</namespace>
+      <namespace key="275" case="first-letter">Widget talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="828" case="first-letter">模块</namespace>
+      <namespace key="829" case="first-letter">模块讨论</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>分类:实体</title>
+    <ns>14</ns>
+    <id>134</id>
+    <revision>
+      <id>4751</id>
+      <parentid>4738</parentid>
+      <timestamp>2023-05-06T02:23:31Z</timestamp>
+      <contributor>
+        <username>WWk</username>
+        <id>1</id>
+      </contributor>
+      <origin>4751</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1562" sha1="52qc4ardhlcfcyca4pj4w23dqyimofu" xml:space="preserve">{{数据表描述
+|描述=该分类为平台顶层本体。实体是指现实世界中存在的具体或抽象的事物或概念，可以是具有独立存在和特征的个体，也可以是人们所感知和思考的抽象概念。实体是人们认识和描述世界的基本单位之一，是各种知识和信息的基本元素。
+|所属平台=观天下平台
+|编辑进度=是
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Name
+|字段含义=姓名或名称
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Description
+|字段含义=实体描述或摘要
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=是
+|InfoBox字段=否
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Ailas
+|字段含义=别名
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Definition
+|字段含义=义项
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{div end}}</text>
+      <sha1>52qc4ardhlcfcyca4pj4w23dqyimofu</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>分类:人物</title>
+    <ns>14</ns>
+    <id>150</id>
+    <revision>
+      <id>1646</id>
+      <parentid>1410</parentid>
+      <timestamp>2023-04-08T15:02:27Z</timestamp>
+      <contributor>
+        <username>WWk</username>
+        <id>1</id>
+      </contributor>
+      <origin>1646</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="6088" sha1="sib23cot9hjn26gr3ahy2ihetewl694" xml:space="preserve">{{数据表描述
+|描述=[[Category:实体]]  
+在某方面有代表性的人。
+|所属平台=观天下平台
+|编辑进度=否
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Nationality
+|字段含义=国籍
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=否
+|关联实体=国家
+|转置属性=无
+|属性特征=Functional, Irreflexive
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=助教郭泽浩修订
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=BirthDate
+|字段含义=出生日期
+|SQL类型=DATE
+|Wiki属性类型=属性:日期型
+|Wiki值列表=否
+|关联实体=出生日期
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=助教郭泽浩修订
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Gender
+|字段含义=性别
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=性别
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=助教郭泽浩修订
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=PoliticalSstatus
+|字段含义=政治面貌
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=ReligiousBelief
+|字段含义=宗教信仰
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=NativePlace
+|字段含义=籍贯
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=否
+|关联实体=地点
+|转置属性=无
+|属性特征=Functional, Asymmetric, Irreflexive
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Birthplace
+|字段含义=出生地
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=否
+|关联实体=地点
+|转置属性=无
+|属性特征=Functional, Asymmetric, Irreflexive
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=ChineseName
+|字段含义=中文名
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=EnglishName
+|字段含义=英文名
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=NativeLanguageName
+|字段含义=本国语言姓名
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Avatar
+|字段含义=头像
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Ethnicity
+|字段含义=民族
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=AlumniOf
+|字段含义=毕业院校
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:页面型
+|Wiki值列表=是
+|关联实体=教育机构
+|转置属性=无
+|属性特征=Asymmetric, Irreflexive
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=HighestDegree
+|字段含义=最高学位
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Email
+|字段含义=Email
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:电子邮件地址型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Telephone
+|字段含义=电话
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:电话号码型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=MainPage
+|字段含义=主页
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:URL型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Facebook
+|字段含义=Facebook账号
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Twitter
+|字段含义=Twitter账号
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{表记录子对象
+|数据层级=主表
+|所属子表=无
+|字段名=Instagram
+|字段含义=Instagram账号
+|SQL类型=VARCHAR
+|Wiki属性类型=属性:文本型
+|Wiki值列表=否
+|关联实体=无
+|转置属性=无
+|Freetext字段=否
+|InfoBox字段=是
+|修订详细描述=无
+}}
+{{div end}}</text>
+      <sha1>sib23cot9hjn26gr3ahy2ihetewl694</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>分类:科研人员</title>
+    <ns>14</ns>
+    <id>1504</id>
+    <revision>
+      <id>4814</id>
+      <timestamp>2023-05-08T04:47:53Z</timestamp>
+      <contributor>
+        <username>2023PBL第5组</username>
+        <id>50</id>
+      </contributor>
+      <comment>创建页面，内容为“{{数据表描述 |描述=科研人员也称为科技工作者，特指具备某一学科专业知识的而从事科学研究的高级知识分子。一个国家科技实力的强弱主要是由青年科研人员决定的。    [[分类:人物]] |所属平台=观天下平台 |编辑进度=否 }} {{主表字段}} {{div begin hidden}} {{div end}}”</comment>
+      <origin>4814</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="344" sha1="ec40zu7h9640duz1dg02kdezsihauja" xml:space="preserve">{{数据表描述
+|描述=科研人员也称为科技工作者，特指具备某一学科专业知识的而从事科学研究的高级知识分子。一个国家科技实力的强弱主要是由青年科研人员决定的。
+
+[[分类:人物]]
+|所属平台=观天下平台
+|编辑进度=否
+}}
+{{主表字段}}
+{{div begin hidden}}
+{{div end}}</text>
+      <sha1>ec40zu7h9640duz1dg02kdezsihauja</sha1>
+    </revision>
+  </page>
+</mediawiki>
